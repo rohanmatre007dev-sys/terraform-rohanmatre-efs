@@ -11,7 +11,7 @@ variable "create" {
 variable "region" {
   description = "AWS region where EFS will be created"
   type        = string
-  default     = "ap-south-1"
+  # default     = "ap-south-1"
 }
 
 variable "environment" {
